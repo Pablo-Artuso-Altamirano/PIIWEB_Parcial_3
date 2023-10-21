@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.animacion{
+    text-align: center;
+    animation:descuento 5s infinite;
+    /* nombre,cuanto dura, cantidad de repeticiones(numero o infinite)*/
+    background-color:#ae946d;
+    padding: 5px;
+}
+
+
+@keyframes descuento{
+    0%{
+        color: orange;
+    }
+
+    25%{
+        color: gold;
+        font-size: larger;
+    }
+
+    50%{
+        color:darksalmon;
+    }
+
+    100%{
+        color: white;
+    }
+} 
+/*Esto define como va a ser la animacion*/
+
+
+
+.navegacion {
+    background-color:black; 
+    color:#fff; 
+    display: flex; /* Convierte la barra de navegación en un contenedor flexible */
+    justify-content: space-between; /* Espacio entre elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 10px; /* Espaciado interno en la barra de navegación */
+}
+
+
+.navegacion .logo img {
+    max-width: 45px;
+}
+
+
+.menu ul {
+    list-style: none; /* Quita los marcadores de lista */
+    display: flex; 
+    justify-content: space-between; 
+}
+
+
+.menu li {
+    margin-right: 30px; /* Espacio entre elementos de la lista */
+}
+
+
+a {
+    text-decoration: none; /* Quita la decoración de subrayado */
+    color: #fff;
+}
+
+
+.primerfondo {
+    width: 100%;
+    height: 50%;
+}
+
+
+.primerfondo img{
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
+
+.carrusel-container {
+    display: flex; /*crear un contenedor flexible que centrará horizontalmente su contenido.*/
+    justify-content: center;/*centrará el carrusel horizontalmente en la página*/
+    align-items: center;/*centrará el carrusel verticalmente en la ventana del navegador*/
+}
+
+
+#carouselExample{
+    max-width: 400px;
+}
+
+
+.carousel-item p{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: darkgrey;
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+/*CSS Página Contacto*/
+
+body{
+    background-color: rgb(238, 237, 237);
+}
+
+
+.contacto {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+
+.contacto .flexcolumn{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.formulario{
+    gap:20px;
+    padding:10px;
+}
+
+
+#Enviar{
+    background-color: #0077B5;
+    color: #fff;
+    width: 100px;
+    padding: 10px 20px;
+    border: none; /*saco el borde*/
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#Enviar:hover {
+    width: 120px;
+    background-color: #005683;
+    transition: .5s;
+}
+
+
+
+
+
