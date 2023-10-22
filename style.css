@@ -1,7 +1,10 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+
 
 
 .animacion{
@@ -31,7 +34,7 @@ body {
         color: white;
     }
 } 
-/*Esto define como va a ser la animacion*/
+
 
 
 
@@ -68,17 +71,66 @@ a {
 }
 
 
-.primerfondo {
-    width: 100%;
-    height: 50%;
+
+
+
+
+
+
+/* Estilos para la sección de imagen de fondo */
+.imgfondo {
+    text-align:center;
+    margin-bottom: 25px;
 }
 
 
-.primerfondo img{
+/* Estilos para el contenedor */
+.contenedor {
+    position: relative; /* Importante para posicionar elementos secundarios */
+    max-width: 100%; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra horizontalmente el contenedor */
+}
+
+
+img {
     width: 100%;
     height: auto;
-    opacity: 0.8;
+    display: block;
 }
+
+
+.botonuno {
+    position: absolute; /* Posición absoluta con respecto al contenedor */
+    top: 80%; /* Centra verticalmente el botón */
+    left: 17%; /* Centra horizontalmente el botón */
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 11px;
+    transition: all 1.5s;
+}
+
+
+.botondos {
+    position: absolute; /* Posición absoluta con respecto al contenedor */
+    top: 80%; /* Centra verticalmente el botón */
+    left: 73%; /* Centra horizontalmente el botón */
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 11px;
+    transition: all 1.5s;
+}
+
+
+.boton:hover {
+    background-color: #85d4ff;
+}
+
+
+
+
+
 
 
 .carrusel-container {
