@@ -51,9 +51,9 @@ body {
     background-color:var(--colorprincipal); 
     color:#fff; 
     display: flex; /* Convierte la barra de navegación en un contenedor flexible */
-    justify-content: space-between; /* Espacio entre elementos */
+    justify-content: space-between; 
     align-items: center; /* Centra verticalmente los elementos */
-    padding: 10px; /* Espaciado interno en la barra de navegación */
+    padding: 10px; 
 }
 
 
@@ -63,7 +63,7 @@ body {
 
 
 .menu ul {
-    list-style: none; /* Quita los marcadores de lista */
+    list-style: none; 
     display: flex; 
     justify-content: space-between; 
 }
@@ -75,7 +75,7 @@ body {
 
 
 a {
-    text-decoration: none; /* Quita la decoración de subrayado */
+    text-decoration: none; 
     color: #fff;
 }
 
@@ -93,11 +93,11 @@ a {
 }
 
 
-/* Estilos para el contenedor */
+
 .contenedor {
     position: relative; /* Importante para posicionar elementos secundarios */
     max-width: 100%; 
-    margin: 0 auto; /* Centra horizontalmente el contenedor */
+    margin: 0 auto; 
 }
 
 
@@ -171,7 +171,7 @@ section{
 
 
 h5{
-    font-weight: bold; /* Negrita */
+    font-weight: bold; 
 }
 
 
@@ -228,8 +228,8 @@ body{
 
 h1{
     font-size: 35px;
-    font-weight: bold; /* Negrita */
-    text-decoration: underline; /* Subrayado */
+    font-weight: bold; 
+    text-decoration: underline; 
 }
 
 
