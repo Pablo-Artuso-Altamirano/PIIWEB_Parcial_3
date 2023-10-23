@@ -50,9 +50,9 @@ body {
 .navegacion {
     background-color:var(--colorprincipal); 
     color:#fff; 
-    display: flex; /* Convierte la barra de navegación en un contenedor flexible */
+    display: flex; 
     justify-content: space-between; 
-    align-items: center; /* Centra verticalmente los elementos */
+    align-items: center; 
     padding: 10px; 
 }
 
@@ -118,9 +118,9 @@ img {
 
 
 .carrusel-container {
-    display: flex; /*crear un contenedor flexible que centrará horizontalmente su contenido.*/
-    justify-content: center ;/*centrará el carrusel horizontalmente en la página*/
-    align-items:center;/*centrará el carrusel verticalmente en la ventana del navegador*/
+    display: flex; 
+    justify-content: center ;
+    align-items:center;
 }
 
 
