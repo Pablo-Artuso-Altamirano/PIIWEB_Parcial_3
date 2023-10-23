@@ -1,7 +1,15 @@
+:root{
+    --colorprincipal: #000000; 
+}
+
+
+
+
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--colorprincipal);
 }
 
 
@@ -87,7 +95,7 @@ a {
 /* Estilos para el contenedor */
 .contenedor {
     position: relative; /* Importante para posicionar elementos secundarios */
-    max-width: 100%; /* Ancho máximo del contenedor */
+    max-width: 100%; 
     margin: 0 auto; /* Centra horizontalmente el contenedor */
 }
 
@@ -96,19 +104,7 @@ img {
     width: 100%;
     height: auto;
     display: block;
-}
-
-
-.botonuno {
-    position: absolute; /* Posición absoluta con respecto al contenedor */
-    top: 80%; /* Centra verticalmente el botón */
-    left: 17%; /* Centra horizontalmente el botón */
-    background-color: black;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 11px;
-    transition: all 1.5s;
-}
+} 
 
 
 .botondos {
@@ -117,9 +113,8 @@ img {
     left: 73%; /* Centra horizontalmente el botón */
     background-color: black;
     color: #fff;
-    padding: 10px 20px;
+    padding: 30px 40px;
     border-radius: 11px;
-    transition: all 1.5s;
 }
 
 
@@ -135,27 +130,71 @@ img {
 
 .carrusel-container {
     display: flex; /*crear un contenedor flexible que centrará horizontalmente su contenido.*/
-    justify-content: center;/*centrará el carrusel horizontalmente en la página*/
-    align-items: center;/*centrará el carrusel verticalmente en la ventana del navegador*/
+    justify-content: center ;/*centrará el carrusel horizontalmente en la página*/
+    align-items:center;/*centrará el carrusel verticalmente en la ventana del navegador*/
 }
 
 
-#carouselExample{
-    max-width: 400px;
+.carrusel{
+    width: 400px;
 }
 
 
 .carousel-item p{
-    background-color: black;
+    background-color: red;
     color: #fff;
     text-align: center;
-    text-transform: uppercase;
 }
 
 
 
 
 
+
+
+
+
+.parrafo{
+    color: white;
+}
+
+
+
+
+
+
+
+
+h2{
+    color: white;
+}
+
+
+section{
+    gap: 25px;
+}
+
+
+.card{
+    width: 16rem;
+}
+
+
+h5{
+    font-weight: bold; /* Negrita */
+}
+
+
+.btn-primary{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+
+.btn-primary:hover{
+    background-color: yellowgreen;
+}
 
 
 
@@ -164,7 +203,8 @@ img {
 
 
 footer{
-    background-color: darkgrey;
+    background-color: rgb(20, 20, 20);
+    color: white;
     text-align: center;
     padding: 5px;
 }
@@ -177,11 +217,33 @@ footer{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 /*CSS Página Contacto*/
 
 body{
-    background-color: rgb(238, 237, 237);
+    background-color: var(--colorprincipal);
 }
+
+
+
+h1{
+    font-size: 35px;
+    font-weight: bold; /* Negrita */
+    text-decoration: underline; /* Subrayado */
+}
+
+
+
 
 
 .contacto {
@@ -198,10 +260,41 @@ body{
 }
 
 
+.img-puma{
+    width: 500px;
+    position: absolute; 
+    top: 20%; /* Centra verticalmente el botón */
+    left: 56%; /* Centra horizontalmente el botón */
+    transition: 4s;
+}
+
+
+.animacion:hover{
+    animation: titulo 2s infinite; 
+}
+
+@keyframes titulo {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-40px);
+    }
+
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+
 .formulario{
     gap:20px;
     padding:10px;
 }
+
+
+
 
 
 #Enviar{
@@ -209,7 +302,7 @@ body{
     color: #fff;
     width: 100px;
     padding: 10px 20px;
-    border: none; /*saco el borde*/
+    border: none; 
     border-radius: 5px;
     cursor: pointer;
 }
@@ -220,8 +313,4 @@ body{
     background-color: #005683;
     transition: .5s;
 }
-
-
-
-
 
