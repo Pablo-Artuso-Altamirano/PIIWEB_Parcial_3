@@ -15,6 +15,7 @@ body {
 
 
 
+
 .animacion{
     text-align: center;
     animation:descuento 5s infinite;
@@ -47,7 +48,7 @@ body {
 
 
 .navegacion {
-    background-color:black; 
+    background-color:var(--colorprincipal); 
     color:#fff; 
     display: flex; /* Convierte la barra de navegación en un contenedor flexible */
     justify-content: space-between; /* Espacio entre elementos */
@@ -111,16 +112,12 @@ img {
     position: absolute; /* Posición absoluta con respecto al contenedor */
     top: 80%; /* Centra verticalmente el botón */
     left: 73%; /* Centra horizontalmente el botón */
-    background-color: black;
+    background-color: var(--colorprincipal);
     color: #fff;
     padding: 30px 40px;
     border-radius: 11px;
 }
 
-
-.boton:hover {
-    background-color: #85d4ff;
-}
 
 
 
@@ -137,6 +134,7 @@ img {
 
 .carrusel{
     width: 400px;
+
 }
 
 
@@ -186,7 +184,7 @@ h5{
 
 
 .btn-primary{
-    background-color: black;
+    background-color: var(--colorprincipal);
     color: white;
     transition: 0.5s;
 }
@@ -269,7 +267,7 @@ h1{
 }
 
 
-.animacion:hover{
+.animation:hover{
     animation: titulo 2s infinite; 
 }
 
