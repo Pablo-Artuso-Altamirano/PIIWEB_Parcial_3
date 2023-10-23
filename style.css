@@ -108,15 +108,7 @@ img {
 } 
 
 
-.botondos {
-    position: absolute; /* Posición absoluta con respecto al contenedor */
-    top: 80%; /* Centra verticalmente el botón */
-    left: 73%; /* Centra horizontalmente el botón */
-    background-color: var(--colorprincipal);
-    color: #fff;
-    padding: 30px 40px;
-    border-radius: 11px;
-}
+
 
 
 
